@@ -1,0 +1,121 @@
+/* tour-details.css */
+
+.tour__content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tour__info h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.tour__info .d-flex.align-items-center.gap-5 {
+    margin-bottom: 15px;
+}
+
+.tour__extra-details {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.tour__extra-details span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #555;
+}
+
+.tour__extra-details span i {
+    margin-right: 5px;
+}
+
+.tour__reviews {
+    margin-top: 40px;
+}
+
+.tour__reviews h4 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.rating__group span {
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.3s;
+}
+
+.rating__group span:hover {
+    transform: scale(1.1);
+}
+
+.review__input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.review__input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.review__input button {
+    padding: 10px 20px;
+    background-color: #fc9803;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.review__input button:hover {
+    background-color: #e58e00;
+}
+
+.user__reviews .review__item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.user__reviews .review__item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.user__reviews .review__item .w-100 {
+    flex: 1;
+}
+
+.user__reviews .review__item h5 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.user__reviews .review__item p {
+    font-size: 0.9rem;
+    color: #999;
+    margin-bottom: 5px;
+}
+
+.user__reviews .review__item span {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    color: #fc9803;
+}

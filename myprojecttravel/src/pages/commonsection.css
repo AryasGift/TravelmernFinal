@@ -1,0 +1,13 @@
+.common_section{
+    background: linear-gradient(rgba(0,0,0,0.45),rgba(0,0,0,0.45)),
+    url("https://i.postimg.cc/ZKRBhM9n/tour.jpg") no-repeat center center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    text-align: center;
+}
+.common_section h1{
+    color: aliceblue;
+}

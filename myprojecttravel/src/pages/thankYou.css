@@ -1,0 +1,31 @@
+.thank-you {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+}
+
+.thank-you__content {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.thank-you__icon {
+    font-size: 50px;
+    color: #ff9f00;
+}
+
+.thank-you h1 {
+    margin-top: 20px;
+    font-size: 36px;
+    color: #343a40;
+}
+
+.thank-you p {
+    margin-top: 10px;
+    color: #6c757d;
+}

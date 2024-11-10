@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+}
+.head1{
+  font-family: "Playwrite US Trad", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.section2{
+  background-image: url("https://i.postimg.cc/4x9RjjTS/full-shot-man-with-photo-camera-desert-23-2149408689.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section3{
+  background-image: url("https://i.postimg.cc/2y77qkvK/taj.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section4{
+  background-image: url("https://i.postimg.cc/BQDGVd3w/young-beautiful-woman-is-walking-paris-photo-background-eiffel-tower-happy-travel-photo-concept-1321.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .no-border {
+  border: none !important;
+  outline: none !important; 
+  box-shadow: none !important; 
+} */
+
+.search1 input, .search2 input, .search3 input {
+  border: none !important;
+  outline: none !important; 
+  box-shadow: none !important; 
+}
+.search1{
+  /* border-right: 2px solid #ff9f00; */
+}
+.photo-gallery{
+  display:flex;
+  gap: 5px;
+}
+.column{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.photo img{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.input-wrapper {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+}
+
+.subscribe-input {
+  width: 100%;
+  padding: 10px 80px 10px 15px; /* Added right padding for button */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.subscribe-button {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+  margin: auto;
+  height: 85%;
+  padding:  20px;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 1rem;
+}
+.mainBack {
+  background-image: url("https://i.postimg.cc/0ykPcJXg/rock.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register {
+  width: 420px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.input-box {
+  position: relative;
+  width: 100%;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 100%;
+  padding-left: 40px; /* Space for the icon */
+  height: 40px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  color: #fff;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box i {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .search {
+      flex-direction: column;
+  }
+  .footer{
+    flex-direction: column;
+
+  }
+}
+
